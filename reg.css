@@ -1,0 +1,101 @@
+
+/*注册新用户*/
+#section{
+    width:980px;
+    margin:0 auto;
+    position:relative;
+}
+.use_top{
+    padding:8px 20px;
+    font-size:14px;
+    background:#F5F5F5;
+    border:1px solid #eee;
+}
+.use_top span a{
+    color:blue;
+    /*text-decoration: underline;*/
+}
+.use_top span{
+    float:right;
+    margin-right:30px;
+
+}
+/*个人用户*/
+.use{
+    text-align:center;
+    width:70px;
+    height:30px;
+    line-height:30px;
+    position:absolute;
+    top:55px;
+    left:147px;
+    border:1px solid #FDDA95;
+    border-bottom:none;
+    background:linear-gradient(to top,#FEFBF2 ,#FDD992);
+
+
+
+}
+/*用户登录*/
+.use_center{
+   width:500px;
+    height:250px;
+    margin:0 auto;
+    margin-top:50px;
+    float:left;
+    border-top:1px solid #FDDA95;
+}
+.use_center ul{
+   width:420px;
+    margin-left:65px;
+    padding-top:20px;
+}
+.use_center ul li{
+    padding:10px;
+}
+.use_center ul li span{
+    width:70px;
+    display:inline-block;
+    text-align:right;
+}
+/*提示性信息*/
+.use_center ul li div{
+    padding-left:20px;
+    width:120px;
+    height:16px;
+    /*padding:2px;*/
+   display:inline-block;
+    /*border:1px solid red;*/
+
+}
+
+.use_center ul li span>b{
+    color:red;
+}
+
+.use_center input{
+    padding:5px;
+}
+/*通过验证提示*/
+.vali_success{
+    background:url(Images/ok.png) no-repeat 0 -2px;
+}
+.vali_fail{
+    background:url(Images/err.png) no-repeat;
+}
+
+.use_center_right{
+    border-left:1px solid #eee;
+    height:250px;
+    width:425px;
+    float:right;
+    margin-top:60px;
+}
+
+/*提交按钮*/
+#btn{
+    background:linear-gradient(to top,#EA5907,#FDDFA3);
+    border:1px solid #DE6467;
+    cursor: pointer;
+
+}

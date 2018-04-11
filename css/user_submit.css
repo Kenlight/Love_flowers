@@ -1,0 +1,271 @@
+body{
+    font-size:12px;
+    padding:0;
+    margin:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+ul,li,dl,dd,dt,p,b,h1,h2,h3,h4,h5,h6,td,tr,table,b{
+    padding:0;
+    margin:0;
+    list-style:none;
+
+}
+.clear{
+    clear:both;
+}
+img{
+    border:none;
+    vertical-align: bottom;
+}
+.red{
+    color:#E4393C;
+}
+
+a:link,a:visited{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:#E4393C;
+    text-decoration: none;
+}
+
+/*网页top头部链接*/
+#top_bar{
+    width:100%;
+    height:30px;
+    background:linear-gradient(to top,#ECECEC,#FFFFFF);
+    border-bottom:2px solid #CCCCCC;
+}
+li.font_gray {
+    color:#BCBCBC;
+}
+.top_inner{
+    width:980px;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding-left:55px;
+}
+
+.top_inner ul:last-child{
+    float:right;
+    width:500px;
+
+}
+.top_inner ul:last-child li{
+    float:right;
+}
+.top_inner li:last-child a{
+    color:#BCBCBC;
+}
+.ico_atten{
+    float:right;
+    padding-left:25px;
+    line-height:30px;
+}
+
+
+.top_inner>ul>li{
+    float:left;
+    line-height:30px;
+
+}
+.top_inner_ul2 li>a{
+    padding:0 10px;
+    border-right:1px solid #B6C6D6;
+
+}
+.top_inner ul li a:hover{
+    text-decoration: underline;
+    color:#E4393C;
+}
+/*logo部分*/
+
+
+.logo{
+    width:980px;
+    padding:20px 10px;
+    margin:0 auto;
+}
+
+/*登录界面*/
+.main{
+    width:980px;
+    border:1px solid #D1D1D1;
+    margin:0 auto;
+
+
+}
+.main:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.main h3{
+    border-bottom:1px solid #D1D1D1;
+    color:#000000;
+    padding:10px 20px;
+    background:linear-gradient(to top,#F2F2F2,#eee);
+    box-sizing: border-box;
+}
+ .main_left{
+     float:left;
+     width:600px;
+    box-sizing: border-box;
+ }
+.main_left ul li{
+    overflow: hidden;
+
+    padding:10px 0;
+    position:relative;
+
+}
+.main_left ul li>span{
+    display:inline-block;
+    line-height:30px;
+    float:left;
+    width:70px;
+    text-align:right;
+    padding-right:10px;
+}
+.main_left div>input{
+    height:25px;
+    width:200px;
+padding-left:10px;
+
+}
+
+.main_left ul li>div{
+    float:left;
+    height:35px
+}
+.main_left ul li:nth-child(3) input{
+    width:20px;
+    padding:10px;
+}
+.main_fitht{
+    float:right;
+}
+.vali_info{
+    float:right;
+
+    line-height:35px;
+    padding-left:10px;
+
+
+
+}
+.vali_info_div{
+    float:right;
+    color:red;
+    line-height:35px;
+    padding-left:10px;
+    opacity:1;
+    font-size:14px;
+}
+.main_ul{
+    margin-top:20px;
+    border-right:1px solid #eee;
+}
+.main_ul li b{
+    width:16px;
+    height:18px;
+    display:inline-block;
+    position: relative;
+    top:3px;
+    border-radius:10px;
+    font-size:20px;
+    color:red;
+
+
+}
+.txt_focus{/*当文本框获得焦点时穿上*/
+    border-top:2px solid black;
+    border-left:2px solid black;
+}/*当文本框失去焦点时脱下*/
+/*验证通过时b的样式*/
+.vali_success{
+    /*background:url(Images/iconlist_1.png) no-repeat -205px -227px;*/
+    background:url(../Images/ok.png) no-repeat 0 1px;
+
+}
+/*验证失败时b的样式*/
+.vali_fail{
+    /*background:url(Images/iconlist_1.png) no-repeat -261px -89px;*/
+    background:url(../Images/err.png) no-repeat 0 1px;
+}
+
+.main_ul li:last-child div button{
+    font-size:18px;
+    padding:5px 20px;
+    background:linear-gradient(to top,#E35902,#FEC352);
+    border-radius: 5px;
+    color:#F3F3F3;
+    border:none;
+    outline:none;
+    cursor: pointer;
+
+}
+
+/*网页top头部链接结束*/
+/*右侧注册页面*/
+.mian_right{
+    float:right;
+    width:324px;
+    height:256px;
+  margin-right:20px;
+
+
+}
+.mian_right h4{
+    padding:20px 0 0 5px;
+}
+.mian_right p{
+    margin-top:20px;
+    padding:5px 0;
+    color:#8E949E;
+}
+.mian_right a{
+    display:block;
+    padding:6px 10px;
+    width:75px;
+    margin-left:30%;
+    margin-top:10%;
+    background:linear-gradient(to top,#FBDBA3,#FDECD2);
+}
+
+#footer{
+    width:800px;
+    margin:0 auto;
+    margin-top:30px;
+
+}
+#footer ul{
+
+    width:800px;
+}
+#footer ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#footer ul li{
+    float:left;
+    border-right:1px solid #aaa;
+    padding:0 10px;
+    color:#505052;
+}
+#footer ul li:last-child{
+    border-right:none;
+}
+#footer p{
+    padding:5px;
+    color:#505052;
+}
+#footer img{
+    margin-left:5px;
+}
+#footer img:first-child{
+    margin-left:60px ;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    //1：清除会话级数据 loginName
+    sessionStorage.removeItem("uname");
+    //2: 3S后跳转回 05_index.html
+    alert("退出成功，即将跳转到主页");
+    setTimeout(function(){
+        location.href = "index.html";
+    },20); //14:40--14:42
+</script>
+</body>
+</html>
